@@ -1,17 +1,17 @@
 # Compiler Design
 
 ## Tokens for Lexical Grammar
-variable: [a-zA-Z_][a-zA-Z0-9_]*,
-integer: d*,
-real: d* . d*,
-type: integer | real,
-assignment: :=,
-operator: +-*^/,
-end: ;,
-Declaration: :,
-Open Parenthesis: (,
-Close Parenthesis: ),
-Separator: ,
+variable: [a-zA-Z_][a-zA-Z0-9_]*,    
+integer: d*,   
+real: d* . d*,  
+type: integer | real,   
+assignment: :=,   
+operator: +-*^/,  
+end: ;,    
+Declaration: :,   
+Open Parenthesis: (,   
+Close Parenthesis: ),   
+Separator: ,     
 
 ## Grammar for Semantic Analyzer
 Numeric -> [0-9]*
