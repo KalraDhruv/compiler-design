@@ -1,4 +1,5 @@
 # Compiler Design
+The first two stages in compiler design have been implemented in the given code. The grammar used in the case of lexical and semantic analyzer has been written below.
 
 ## Tokens for Lexical Grammar
 variable: [a-zA-Z_][a-zA-Z0-9_]*,    
