@@ -14,16 +14,16 @@ Close Parenthesis: ),
 Separator: ,     
 
 ## Grammar for Semantic Analyzer
-Numeric -> [0-9]*
-Operator -> *|+|-|/|^
-Variable -> [a-zA-Z_][A-Za-z_0-9]*
-Type -> integer | real
-Statement_list -> Statement*
-Statement -> Declaration | Assignment
-Declaration -> Variable* : Type ;
-Assignment -> Variable := Expression ;
-Expression -> Addition
-Addition -> Multiply(+|-)Multiply
-Multiply -> Exponent(*|/)Exponent
-Exponent-> Base(^)Base
-Base -> Expression | lambda (INTEGER | REAL | VARIABLE | OPEN PARENTHESIS | CLOSE PARENTHESIS)
+Numeric -> [0-9]*   
+Operator -> *|+|-|/|^    
+Variable -> [a-zA-Z_][A-Za-z_0-9]*  
+Type -> integer | real   
+Statement_list -> Statement*   
+Statement -> Declaration | Assignment    
+Declaration -> Variable* : Type ;   
+Assignment -> Variable := Expression ;   
+Expression -> Addition   
+Addition -> Multiply(+|-)Multiply    
+Multiply -> Exponent(*|/)Exponent    
+Exponent-> Base(^)Base    
+Base -> Expression | lambda (INTEGER | REAL | VARIABLE | OPEN PARENTHESIS | CLOSE PARENTHESIS)   
